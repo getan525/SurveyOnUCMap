@@ -1,0 +1,356 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\workspace.xml
+* README.md
+* app\
+* app\build.gradle
+* app\libs\
+* app\libs\UCMapForOpenGIS.jar
+* app\libs\bolts-tasks-1.4.0.jar
+* app\libs\glide-3.7.0.jar
+* app\libs\nineoldandroids-2.4.0.jar
+* app\libs\pldroid-player-1.3.2.jar
+* app\libs\stream-1.1.2.jar
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\aidl\
+* app\src\main\aidl\android\
+* app\src\main\aidl\android\app\
+* app\src\main\aidl\android\app\ITransientNotification.aidl
+* app\src\main\assets\
+* app\src\main\assets\material-icon-font.ttf
+* app\src\main\java\
+* app\src\main\java\cn\
+* app\src\main\java\cn\creable\
+* app\src\main\java\cn\creable\surveyOnUCMap\
+* app\src\main\java\cn\creable\surveyOnUCMap\AVLoadingIndicatorView.java
+* app\src\main\java\cn\creable\surveyOnUCMap\AddFeatureTool.java
+* app\src\main\java\cn\creable\surveyOnUCMap\AddFeatureTool2.java
+* app\src\main\java\cn\creable\surveyOnUCMap\Azimuth.java
+* app\src\main\java\cn\creable\surveyOnUCMap\BallScaleIndicator.java
+* app\src\main\java\cn\creable\surveyOnUCMap\BaseIndicatorController.java
+* app\src\main\java\cn\creable\surveyOnUCMap\BluBitMapUtils.java
+* app\src\main\java\cn\creable\surveyOnUCMap\BluFile.java
+* app\src\main\java\cn\creable\surveyOnUCMap\BluRecorder.java
+* app\src\main\java\cn\creable\surveyOnUCMap\BluToast.java
+* app\src\main\java\cn\creable\surveyOnUCMap\CutTool.java
+* app\src\main\java\cn\creable\surveyOnUCMap\DBUtils.java
+* app\src\main\java\cn\creable\surveyOnUCMap\DeleteFeatureTool.java
+* app\src\main\java\cn\creable\surveyOnUCMap\DialogUtils.java
+* app\src\main\java\cn\creable\surveyOnUCMap\Dtss.java
+* app\src\main\java\cn\creable\surveyOnUCMap\EditFeatureAttTool.java
+* app\src\main\java\cn\creable\surveyOnUCMap\EditFeatureTool.java
+* app\src\main\java\cn\creable\surveyOnUCMap\FeatureInfo.java
+* app\src\main\java\cn\creable\surveyOnUCMap\FeatureInfoAdapter.java
+* app\src\main\java\cn\creable\surveyOnUCMap\FeatureState.java
+* app\src\main\java\cn\creable\surveyOnUCMap\GVS.java
+* app\src\main\java\cn\creable\surveyOnUCMap\HorizontalListView.java
+* app\src\main\java\cn\creable\surveyOnUCMap\IMapTool.java
+* app\src\main\java\cn\creable\surveyOnUCMap\MainActivity.java
+* app\src\main\java\cn\creable\surveyOnUCMap\MapInfo.java
+* app\src\main\java\cn\creable\surveyOnUCMap\MapSelectFragment.java
+* app\src\main\java\cn\creable\surveyOnUCMap\MeasureTool.java
+* app\src\main\java\cn\creable\surveyOnUCMap\MediaController.java
+* app\src\main\java\cn\creable\surveyOnUCMap\MenuAdapter.java
+* app\src\main\java\cn\creable\surveyOnUCMap\ModifyFeatureInfo.java
+* app\src\main\java\cn\creable\surveyOnUCMap\PathAnalysisHandler.java
+* app\src\main\java\cn\creable\surveyOnUCMap\PathAnalysisTool.java
+* app\src\main\java\cn\creable\surveyOnUCMap\PhotoAdapter.java
+* app\src\main\java\cn\creable\surveyOnUCMap\PlayVideo.java
+* app\src\main\java\cn\creable\surveyOnUCMap\PlayVoice.java
+* app\src\main\java\cn\creable\surveyOnUCMap\SelectString.java
+* app\src\main\java\cn\creable\surveyOnUCMap\SelectStringAdapter.java
+* app\src\main\java\cn\creable\surveyOnUCMap\ShowAttributeFragment.java
+* app\src\main\java\cn\creable\surveyOnUCMap\ShowItemsAdapter.java
+* app\src\main\java\cn\creable\surveyOnUCMap\ShowPhoto.java
+* app\src\main\java\cn\creable\surveyOnUCMap\ShowWait.java
+* app\src\main\java\cn\creable\surveyOnUCMap\TimeString.java
+* app\src\main\java\cn\creable\surveyOnUCMap\ToolBarAdapter.java
+* app\src\main\java\cn\creable\surveyOnUCMap\ToolBarMenu.java
+* app\src\main\java\cn\creable\surveyOnUCMap\UnderLineTextView.java
+* app\src\main\java\cn\creable\surveyOnUCMap\UndoRedo.java
+* app\src\main\java\cn\creable\surveyOnUCMap\Utils.java
+* app\src\main\java\com\
+* app\src\main\java\com\anlia\
+* app\src\main\java\com\anlia\expandmenu\
+* app\src\main\java\com\anlia\expandmenu\utils\
+* app\src\main\java\com\anlia\expandmenu\utils\DpOrPxUtils.java
+* app\src\main\java\com\anlia\expandmenu\widget\
+* app\src\main\java\com\anlia\expandmenu\widget\HorizontalExpandMenu.java
+* app\src\main\java\com\davemorrissey\
+* app\src\main\java\com\davemorrissey\labs\
+* app\src\main\java\com\davemorrissey\labs\subscaleview\
+* app\src\main\java\com\davemorrissey\labs\subscaleview\ImageSource.java
+* app\src\main\java\com\davemorrissey\labs\subscaleview\ImageViewState.java
+* app\src\main\java\com\davemorrissey\labs\subscaleview\SubsamplingScaleImageView.java
+* app\src\main\java\com\davemorrissey\labs\subscaleview\decoder\
+* app\src\main\java\com\davemorrissey\labs\subscaleview\decoder\CompatDecoderFactory.java
+* app\src\main\java\com\davemorrissey\labs\subscaleview\decoder\DecoderFactory.java
+* app\src\main\java\com\davemorrissey\labs\subscaleview\decoder\ImageDecoder.java
+* app\src\main\java\com\davemorrissey\labs\subscaleview\decoder\ImageRegionDecoder.java
+* app\src\main\java\com\davemorrissey\labs\subscaleview\decoder\SkiaImageDecoder.java
+* app\src\main\java\com\davemorrissey\labs\subscaleview\decoder\SkiaImageRegionDecoder.java
+* app\src\main\java\com\flyco\
+* app\src\main\java\com\flyco\animation\
+* app\src\main\java\com\flyco\animation\BaseAnimatorSet.java
+* app\src\main\java\com\flyco\animation\FadeExit\
+* app\src\main\java\com\flyco\animation\FadeExit\FadeExit.java
+* app\src\main\java\com\flyco\dialog\
+* app\src\main\java\com\flyco\dialog\entity\
+* app\src\main\java\com\flyco\dialog\entity\DialogMenuItem.java
+* app\src\main\java\com\flyco\dialog\listener\
+* app\src\main\java\com\flyco\dialog\listener\OnBtnClickL.java
+* app\src\main\java\com\flyco\dialog\listener\OnOperItemClickL.java
+* app\src\main\java\com\flyco\dialog\utils\
+* app\src\main\java\com\flyco\dialog\utils\CornerUtils.java
+* app\src\main\java\com\flyco\dialog\utils\StatusBarUtils.java
+* app\src\main\java\com\flyco\dialog\view\
+* app\src\main\java\com\flyco\dialog\view\TriangleView.java
+* app\src\main\java\com\flyco\dialog\widget\
+* app\src\main\java\com\flyco\dialog\widget\ActionSheetDialog.java
+* app\src\main\java\com\flyco\dialog\widget\MaterialDialog.java
+* app\src\main\java\com\flyco\dialog\widget\NormalDialog.java
+* app\src\main\java\com\flyco\dialog\widget\NormalListDialog.java
+* app\src\main\java\com\flyco\dialog\widget\base\
+* app\src\main\java\com\flyco\dialog\widget\base\BaseDialog.java
+* app\src\main\java\com\flyco\dialog\widget\base\BottomBaseDialog.java
+* app\src\main\java\com\flyco\dialog\widget\base\BottomTopBaseDialog.java
+* app\src\main\java\com\flyco\dialog\widget\internal\
+* app\src\main\java\com\flyco\dialog\widget\internal\BaseAlertDialog.java
+* app\src\main\java\com\flyco\dialog\widget\internal\InternalBasePopup.java
+* app\src\main\java\com\github\
+* app\src\main\java\com\github\johnkil\
+* app\src\main\java\com\github\johnkil\print\
+* app\src\main\java\com\github\johnkil\print\IPrint.java
+* app\src\main\java\com\github\johnkil\print\IPrintView.java
+* app\src\main\java\com\github\johnkil\print\PrintButton.java
+* app\src\main\java\com\github\johnkil\print\PrintConfig.java
+* app\src\main\java\com\github\johnkil\print\PrintDrawable.java
+* app\src\main\java\com\github\johnkil\print\PrintView.java
+* app\src\main\java\com\github\johnkil\print\PrintViewUtils.java
+* app\src\main\java\com\github\johnkil\print\TypefaceManager.java
+* app\src\main\java\com\kennyc\
+* app\src\main\java\com\kennyc\view\
+* app\src\main\java\com\kennyc\view\MultiStateView.java
+* app\src\main\java\com\urizev\
+* app\src\main\java\com\urizev\gpx\
+* app\src\main\java\com\urizev\gpx\GPXConstants.java
+* app\src\main\java\com\urizev\gpx\GPXParser.java
+* app\src\main\java\com\urizev\gpx\beans\
+* app\src\main\java\com\urizev\gpx\beans\Extension.java
+* app\src\main\java\com\urizev\gpx\beans\GPX.java
+* app\src\main\java\com\urizev\gpx\beans\Route.java
+* app\src\main\java\com\urizev\gpx\beans\RoutePoint.java
+* app\src\main\java\com\urizev\gpx\beans\Track.java
+* app\src\main\java\com\urizev\gpx\beans\TrackPoint.java
+* app\src\main\java\com\urizev\gpx\beans\Waypoint.java
+* app\src\main\java\com\urizev\gpx\extensions\
+* app\src\main\java\com\urizev\gpx\extensions\DummyExtensionParser.java
+* app\src\main\java\com\urizev\gpx\extensions\IExtensionParser.java
+* app\src\main\java\com\urizev\gpx\types\
+* app\src\main\java\com\urizev\gpx\types\FixType.java
+* app\src\main\jniLibs\
+* app\src\main\jniLibs\armeabi-v7a\
+* app\src\main\jniLibs\armeabi-v7a\libUCMapForOpenGIS.so
+* app\src\main\jniLibs\armeabi-v7a\libgdalconstjni.so
+* app\src\main\jniLibs\armeabi-v7a\libgdaljni.so
+* app\src\main\jniLibs\armeabi-v7a\libogrjni.so
+* app\src\main\jniLibs\armeabi-v7a\libosrjni.so
+* app\src\main\res\
+* app\src\main\res\anim\
+* app\src\main\res\anim\dialog_enter_left.xml
+* app\src\main\res\anim\dialog_exit_left.xml
+* app\src\main\res\anim\login_anim.xml
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\add_point.png
+* app\src\main\res\drawable-hdpi\add_polygon.png
+* app\src\main\res\drawable-hdpi\add_polyline.png
+* app\src\main\res\drawable-hdpi\arrow.png
+* app\src\main\res\drawable-hdpi\back.png
+* app\src\main\res\drawable-hdpi\btn_record_icon_complete.png
+* app\src\main\res\drawable-hdpi\btn_record_icon_reset.png
+* app\src\main\res\drawable-hdpi\cj.png
+* app\src\main\res\drawable-hdpi\cksx.png
+* app\src\main\res\drawable-hdpi\clean.png
+* app\src\main\res\drawable-hdpi\closemenu.png
+* app\src\main\res\drawable-hdpi\closetoolbar.png
+* app\src\main\res\drawable-hdpi\cmj.png
+* app\src\main\res\drawable-hdpi\combobox.png
+* app\src\main\res\drawable-hdpi\cross.png
+* app\src\main\res\drawable-hdpi\delete.png
+* app\src\main\res\drawable-hdpi\dt.jpg
+* app\src\main\res\drawable-hdpi\dtll.png
+* app\src\main\res\drawable-hdpi\dtss.png
+* app\src\main\res\drawable-hdpi\dw.png
+* app\src\main\res\drawable-hdpi\dx.jpg
+* app\src\main\res\drawable-hdpi\edit_att.png
+* app\src\main\res\drawable-hdpi\end.png
+* app\src\main\res\drawable-hdpi\error.png
+* app\src\main\res\drawable-hdpi\fp.png
+* app\src\main\res\drawable-hdpi\gpx.png
+* app\src\main\res\drawable-hdpi\jl.png
+* app\src\main\res\drawable-hdpi\jp.png
+* app\src\main\res\drawable-hdpi\layer_output.png
+* app\src\main\res\drawable-hdpi\marker_poi.png
+* app\src\main\res\drawable-hdpi\merge.png
+* app\src\main\res\drawable-hdpi\node_add.png
+* app\src\main\res\drawable-hdpi\node_delete.png
+* app\src\main\res\drawable-hdpi\node_move.png
+* app\src\main\res\drawable-hdpi\plugindelete.png
+* app\src\main\res\drawable-hdpi\record_audio_play.png
+* app\src\main\res\drawable-hdpi\record_audio_play_pause.png
+* app\src\main\res\drawable-hdpi\redo.png
+* app\src\main\res\drawable-hdpi\selectstringbackground.xml
+* app\src\main\res\drawable-hdpi\snap_close.png
+* app\src\main\res\drawable-hdpi\snap_open.png
+* app\src\main\res\drawable-hdpi\split.png
+* app\src\main\res\drawable-hdpi\start.png
+* app\src\main\res\drawable-hdpi\tckz.png
+* app\src\main\res\drawable-hdpi\tdt.jpg
+* app\src\main\res\drawable-hdpi\tj.png
+* app\src\main\res\drawable-hdpi\toolbar.png
+* app\src\main\res\drawable-hdpi\ty.png
+* app\src\main\res\drawable-hdpi\undo.png
+* app\src\main\res\drawable-hdpi\wjgl.png
+* app\src\main\res\drawable-hdpi\yx.jpg
+* app\src\main\res\drawable\
+* app\src\main\res\drawable\background.xml
+* app\src\main\res\drawable\cancelbutton.xml
+* app\src\main\res\drawable\edittext_background.xml
+* app\src\main\res\drawable\listview_item_pressed_style.xml
+* app\src\main\res\drawable\menu_item_pressed_style.xml
+* app\src\main\res\drawable\okbutton.xml
+* app\src\main\res\drawable\out_view_backgroud.xml
+* app\src\main\res\drawable\record_round_blue_bg.xml
+* app\src\main\res\drawable\record_round_red_bg.xml
+* app\src\main\res\drawable\round_gray_bg.xml
+* app\src\main\res\drawable\seekbar_bg.xml
+* app\src\main\res\drawable\seekbar_thumb.xml
+* app\src\main\res\drawable\seekbarstyle.xml
+* app\src\main\res\layout\
+* app\src\main\res\layout\activity_main.xml
+* app\src\main\res\layout\dtss.xml
+* app\src\main\res\layout\empty_view.xml
+* app\src\main\res\layout\items.xml
+* app\src\main\res\layout\keyword_query_dlg.xml
+* app\src\main\res\layout\loading_view.xml
+* app\src\main\res\layout\mapselect.xml
+* app\src\main\res\layout\menu.xml
+* app\src\main\res\layout\menu_item.xml
+* app\src\main\res\layout\modifyfeatureinfo.xml
+* app\src\main\res\layout\modifyfeatureinfo_edit.xml
+* app\src\main\res\layout\modifyfeatureinfo_photo.xml
+* app\src\main\res\layout\modifyfeatureinfo_video.xml
+* app\src\main\res\layout\modifyfeatureinfo_voice.xml
+* app\src\main\res\layout\photo.xml
+* app\src\main\res\layout\playvideo.xml
+* app\src\main\res\layout\playvoice.xml
+* app\src\main\res\layout\popup_base.xml
+* app\src\main\res\layout\popup_bubble.xml
+* app\src\main\res\layout\recorderview.xml
+* app\src\main\res\layout\selectstring.xml
+* app\src\main\res\layout\showfeatureinfo.xml
+* app\src\main\res\layout\showfeatureinfo_photo.xml
+* app\src\main\res\layout\showfeatureinfo_text.xml
+* app\src\main\res\layout\showfeatureinfo_video.xml
+* app\src\main\res\layout\showfeatureinfo_voice.xml
+* app\src\main\res\layout\showitems_item.xml
+* app\src\main\res\layout\showphoto.xml
+* app\src\main\res\layout\toolbar_item.xml
+* app\src\main\res\layout\wait.xml
+* app\src\main\res\menu\
+* app\src\main\res\menu\menu.xml
+* app\src\main\res\menu\test.xml
+* app\src\main\res\mipmap-hdpi\
+* app\src\main\res\mipmap-hdpi\ic_launcher.png
+* app\src\main\res\mipmap-mdpi\
+* app\src\main\res\mipmap-mdpi\ic_launcher.png
+* app\src\main\res\mipmap-xhdpi\
+* app\src\main\res\mipmap-xhdpi\ic_launcher.png
+* app\src\main\res\mipmap-xxhdpi\
+* app\src\main\res\mipmap-xxhdpi\ic_launcher.png
+* app\src\main\res\mipmap-xxxhdpi\
+* app\src\main\res\mipmap-xxxhdpi\ic_launcher.png
+* app\src\main\res\values-w820dp\
+* app\src\main\res\values-w820dp\dimens.xml
+* app\src\main\res\values\
+* app\src\main\res\values\attrs.xml
+* app\src\main\res\values\colors.xml
+* app\src\main\res\values\dimens.xml
+* app\src\main\res\values\ids.xml
+* app\src\main\res\values\strings.xml
+* app\src\main\res\values\styles.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* img-folder\
+* img-folder\pic1.png
+* img-folder\pic2.png
+* img-folder\pic3.png
+* img-folder\pic4.png
+* img-folder\pic5.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.4.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\armeabi-v7a\libgdalconstjni.so => app\src\main\jniLibs\armeabi-v7a\libgdalconstjni.so
+* libs\armeabi-v7a\libgdaljni.so => app\src\main\jniLibs\armeabi-v7a\libgdaljni.so
+* libs\armeabi-v7a\libogrjni.so => app\src\main\jniLibs\armeabi-v7a\libogrjni.so
+* libs\armeabi-v7a\libosrjni.so => app\src\main\jniLibs\armeabi-v7a\libosrjni.so
+* libs\armeabi-v7a\libUCMapForOpenGIS.so => app\src\main\jniLibs\armeabi-v7a\libUCMapForOpenGIS.so
+* libs\bolts-tasks-1.4.0.jar => app\libs\bolts-tasks-1.4.0.jar
+* libs\glide-3.7.0.jar => app\libs\glide-3.7.0.jar
+* libs\nineoldandroids-2.4.0.jar => app\libs\nineoldandroids-2.4.0.jar
+* libs\pldroid-player-1.3.2.jar => app\libs\pldroid-player-1.3.2.jar
+* libs\stream-1.1.2.jar => app\libs\stream-1.1.2.jar
+* libs\UCMapForOpenGIS.jar => app\libs\UCMapForOpenGIS.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\android\app\ITransientNotification.aidl => app\src\main\aidl\android\app\ITransientNotification.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
